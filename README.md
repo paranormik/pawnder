@@ -26,7 +26,7 @@ Before you begin, ensure you have the following installed:
 1. **Clone the repository**
 
    ```bash
-   git clone [your-repository-url]
+   git clone git@github.com:paranormik/pawnder.git
    cd Pawnder
    ```
 
@@ -77,41 +77,20 @@ The `.env` file contains your environment-specific configuration. Here's what yo
 API_BASE_URL=your_api_base_url
 API_KEY=your_api_key
 
-# App Configuration
-APP_NAME=Pawnder
-ENVIRONMENT=development
-
-# Optional: Analytics and Monitoring
-SENTRY_DSN=your_sentry_dsn
-GOOGLE_ANALYTICS_ID=your_ga_id
-```
-
 Make sure to never commit your `.env` file to version control. It's already included in `.gitignore`.
 
 ## Project Structure
 
 ```
+
 Pawnder/
-├── app/                 # Main application code
-│   ├── (tabs)/          # Tab navigation screens
-│   └── _layout.tsx      # Root layout
-├── assets/              # Static assets (images, fonts, etc.)
-├── components/          # Reusable UI components
-├── constants/           # App-wide constants
-├── hooks/               # Custom React hooks
-├── services/            # API and service layer
-├── types/               # TypeScript type definitions
-└── utils/               # Utility functions
-```
-
-## Contributing
-
-We welcome contributions! Please feel free to submit a Pull Request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Support
-
-For support, please open an issue in the repository or contact the maintainers.
+├── app/ # Main application code
+│ ├── (tabs)/ # Tab navigation screens
+│ └── \_layout.tsx # Root layout
+├── assets/ # Static assets (images, fonts, etc.)
+├── components/ # Reusable UI components
+├── constants/ # App-wide constants
+├── hooks/ # Custom React hooks
+├── services/ # API and service layer
+├── types/ # TypeScript type definitions
+└── utils/ # Utility functions
