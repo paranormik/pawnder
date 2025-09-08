@@ -77,6 +77,8 @@ The `.env` file contains your environment-specific configuration. Here's what yo
 API_BASE_URL=your_api_base_url
 API_KEY=your_api_key
 
+```
+
 Make sure to never commit your `.env` file to version control. It's already included in `.gitignore`.
 
 ## Project Structure
@@ -94,3 +96,5 @@ Pawnder/
 ├── services/ # API and service layer
 ├── types/ # TypeScript type definitions
 └── utils/ # Utility functions
+
+```
