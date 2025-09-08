@@ -92,7 +92,6 @@ Pawnder/
 ├── assets/ # Static assets (images, fonts, etc.)
 ├── components/ # Reusable UI components
 ├── constants/ # App-wide constants
-├── hooks/ # Custom React hooks
 ├── services/ # API and service layer
 ├── types/ # TypeScript type definitions
 └── utils/ # Utility functions
